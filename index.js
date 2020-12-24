@@ -10,9 +10,9 @@ for (var i =0; i< date.length; i++){
   r += num.pop();
 }
 if(r=== date){
-  console.log("pallindrome");
+  console.log("Yay, your date of birth is pallindrome");
 } else {
-  console.log("not pallindrome");
+  console.log("Oopsie, our date of birth is not pallindrome");
 }
 }
 check(dob);
